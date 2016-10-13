@@ -15,6 +15,12 @@ icon: heart
 
 * email：66615041@qq.com
 
+## 欢迎您捐赠本站，您的支持是我最大的动力！
+
+### 支付宝扫一下
+
+![](http://7xvdkv.com1.z0.glb.clouddn.com/mysrc/collection%20code_zfb.png)
+
 ## 关于本站
 
 **博客使用的主题为他人制作，在此感谢该作者。若您想使用这个 jekyll 博客主题，请访问[作者GitHub](https://github.com/Gaohaoyang/gaohaoyang.github.io)**
