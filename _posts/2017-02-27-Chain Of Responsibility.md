@@ -53,7 +53,7 @@ servlet过滤器处理顺序：
 ![](http://7xvdkv.com1.z0.glb.clouddn.com/image/design_pattern/chainOfResponsibility_filterChain.jpg)
 
 
-```
+```java
 public class Request {
 	String requestStr;
 
@@ -68,7 +68,7 @@ public class Request {
 }
 ```
 
-```
+```java
 public class Response {
 	String responseStr;
 
@@ -83,7 +83,7 @@ public class Response {
 }
 ```
 
-```
+```java
 
 public interface Filter {
 	public void doFilter(Request request, Response response,FilterChain chain);
@@ -92,7 +92,7 @@ public interface Filter {
 
 ```
 
-```
+```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -116,7 +116,7 @@ public class FilterChain implements Filter {
 }
 ```
 
-```
+```java
 /**
  * 过滤HTML中的脚本元素
  */
@@ -136,7 +136,7 @@ public class HTMLFilter implements Filter {
 }
 ```
 
-```
+```java
 public class FaceFilter implements Filter {
 
 	@Override
@@ -154,7 +154,7 @@ public class FaceFilter implements Filter {
 }
 ```
 
-```
+```java
 public class SesitiveFilter implements Filter {
 
 	@Override
@@ -170,7 +170,7 @@ public class SesitiveFilter implements Filter {
 }
 ```
 
-```
+```java
 public class Main {
 	public static void main(String[] args) {
 		String message = "敏感词，<script> 哈哈哈 :)";
@@ -210,7 +210,7 @@ public class Main {
 
 ![](http://7xvdkv.com1.z0.glb.clouddn.com/image/design_pattern/chainOfResponsibility_classic.jpg)
 
-```
+```java
 
 public abstract  class Handler {
 	protected Handler successor;
@@ -224,7 +224,7 @@ public abstract  class Handler {
 
 ```
 
-```
+```java
 public class ConcreteHandler1 extends Handler{
 
 	@Override
@@ -241,7 +241,7 @@ public class ConcreteHandler1 extends Handler{
 
 ```
 
-```
+```java
 public class ConcreteHandler2 extends Handler{
 
 	@Override
@@ -257,7 +257,7 @@ public class ConcreteHandler2 extends Handler{
 }
 ```
 
-```
+```java
 public class Main {
 	public static void main(String[] args) {
 		Handler h1 = new ConcreteHandler1();
