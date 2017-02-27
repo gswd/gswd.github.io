@@ -42,8 +42,8 @@ baidu_tongji_id: 3392bc57ecb526ae0ea44c132d441fd1
 markdown: kramdown
 
 kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+ input: GFM
+ syntax_highlighter: rouge
 
 # port
 # port: 1234
