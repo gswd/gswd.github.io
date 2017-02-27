@@ -37,13 +37,13 @@ disqus_shortname: #loach
 # xxxxx字符串
 baidu_tongji_id: 3392bc57ecb526ae0ea44c132d441fd1
 #google_analytics_id: UA-72449510-4 # google 分析追踪id
-
+google_analytics:
 # Build settings
-markdown: kramdown
+# markdown: kramdown
 
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+# kramdown:
+#  input: GFM
+#  syntax_highlighter: rouge
 
 # port
 # port: 1234
