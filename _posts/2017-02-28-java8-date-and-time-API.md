@@ -13,7 +13,6 @@ excerpt: Java三次引入处理时间的API，JDK1.0中包含了一个`Date`类�
 ![](http://7xvdkv.com1.z0.glb.clouddn.com/image/banner/DateTime_clock_zone.jpg)
 
 
-
 现实生活的世界里，时间是不断向前的，如果向前追溯时间的起点，可能是宇宙出生时，又或是是宇宙出现之前，
 但肯定是我们目前无法找到的，我们不知道现在距离时间原点的精确距离。所以我们要表示时间，
 就需要人为定义一个原点。
